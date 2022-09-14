@@ -28,5 +28,5 @@ A better question would be why not Data Science? I have always loved numbers, ev
 
 
 **Images in the post will look like:**<br>
-![Test Image](https://raw.githubusercontent.com/esnt/stat386-projects/main/assets/images/Data_Science_Image1.jpeg)
+![Test Image](https://raw.githubusercontent.com/claudia-caten/stat386-projects/main/assets/images/Data_Science_Image1.jpeg)
 
