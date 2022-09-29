@@ -42,10 +42,11 @@ slr <- lm(formula=Y~X, data=mydata)
 
 # Time to Make Predictions
 Once we have fit a model (and made sure that our data meets the assumptions) we can use it to make predictions about the data. In my opinion this is the funnest part. It is important to note here that it is unethical to try to use data outside of the range of the original dataset to make predictions. This is known as data extrapolation. If we use a data point that would fit within the range of the original dataset we can once again use R to predict the response variable associated with our explanatory variable as if it was in the original dataset. In order to use the predict.lm function in R, we need to create a data frame with the data points that we are interested. Then we can predict the values of our points using our model.
-'''
+
+```
 mydata <- data.frame(X=c(x1,x2))
 predict.lm(slr, mydata)
-'''
+```
 
 # Conclusion
 Ultimately, Regression is an incredible tool that we use in data science. This tutorial barely scrapes the surface in how complex regression can get. Nevertheless, at the root of it all regression can be very simple and we "R" grateful for the tools that can help us to do it!
