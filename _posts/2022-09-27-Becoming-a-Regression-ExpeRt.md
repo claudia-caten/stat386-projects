@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Becoming a Regression ExpeRt"
-date:   2022-08-02
+date:   2022-09-27
 author: Claudia Caten
 description: Regression is an essential tool as a statistician. In this blog post I will go over how to use R to perform different types of Regression data analysis.
 image: /assets/images/image1.jpg
