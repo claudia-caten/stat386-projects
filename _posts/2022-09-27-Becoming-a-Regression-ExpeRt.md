@@ -3,7 +3,7 @@ layout: post
 title:  "Becoming a Regression ExpeRt"
 date:   2022-09-27
 author: Claudia Caten
-description: Regression is an essential tool as a statistician. In this blog post I will go over how to use R to perform different types of Regression data analysis.
+description: Regression is an essential tool as a statistician. In this blog post I will go over how to use R to perform Simple Linear Regression data analysis.
 image: /assets/images/image1.jpg
 ---
 Learning how to perform regression is an indispensable tool as a statistician. Regression is useful to understand the relationship between variables and to be able to make predictions. In my experience as a learning statistician, I have learned a lot about regression, and I recognize that there is a lot more to be learned. I have been able to use Regression to answer all types of questions. I have been able to predict where a prospective farmer should purchase land, the amount of air pollution based off the amount of traffic in an intersection and even whether a tumor will be malignant. As you can see Regression is an incredibly important tool. This blog will cover some of the basics of regression specifically in R, but I encourage you to learn even more! Check out this awesome
