@@ -4,7 +4,7 @@ title:  "Becoming a Regression ExpeRt"
 date:   2022-09-25
 author: Claudia Caten
 description: Regression is an essential tool as a statistician. In this blog post I will go over how to use R to perform Simple Linear Regression data analysis.
-image: /assets/images/image1.jpg
+image: /assets/images/linear_trend.jpg
 ---
 Learning how to perform regression is an indispensable tool as a statistician. Regression is useful to understand the relationship between variables and to be able to make predictions. In my experience as a learning statistician, I have learned a lot about regression, and I recognize that there is a lot more to be learned. I have been able to use Regression to answer all types of questions. I have been able to predict where a prospective farmer should purchase land, the amount of air pollution based off the amount of traffic in an intersection and even whether a tumor will be malignant. As you can see Regression is an incredibly important tool. This blog will cover some of the basics of regression specifically in R, but I encourage you to learn even more! Check out this awesome
 <a href="https://www.towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9"> blog </a> if you want to learn more about Regression in python.
@@ -50,4 +50,4 @@ predict.lm(slr, mydata)
 ```
 
 # Conclusion
-Ultimately, Regression is an incredible tool that we use in data science. This tutorial barely scrapes the surface in how complex regression can get. Nevertheless, at the root of it all regression can be very simple and we "R" grateful for the tools that can help us to do it!
+Ultimately, Regression is an incredible tool that we use in data science. This tutorial barely scrapes the surface in how complex regression can get. Nevertheless, at the root of it all regression can be very simple and we "R" grateful for the tools that can help us to do it! Go try it on your own if you haven't already and comment below what kind of datasets you have used regression on!
