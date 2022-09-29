@@ -21,6 +21,7 @@ The most basic type of exploratory data analysis is to graph the data. Humans ar
 ggplot(data=mydata, mapping=aes(x=X,y=Y)) + geom_point()+geom_smooth(se=FALSE)
 ```
 An example of a scatterplot that I have created is shown below. This dataset represents the relationship between the wind speed at two different locations in order to find the best places to build windmills.
+
 ![Test Image](https://raw.githubusercontent.com/claudia-caten/stat386-projects/main/assets/images/EDA_example.png)
 
 
