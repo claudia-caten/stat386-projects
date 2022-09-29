@@ -14,12 +14,34 @@ It's first important to recognize that there are many different types of Regress
 
 # Exploring the Data
 Before Americans expanded west, they sent explorers to learn more about the land in the west. Similarly, before we start to perform regression, we need to learn all that we can about the data. Performing an exploratory data analysis (also known as an EDA) is an essential step. Doing this helps us to know what kind of regression we will perform and helps us to become acquainted with the dataset that we are working with. 
-The most basic type of exploratory data analysis is to graph the data. Humans are visual learners and to truly understand a dataset it helps us to be able to see the data. After graphing the data, it is also helpful to find simple statistics such as covariance and correlation to help us to better understand the relationships between variables. Once we have explored the data, we are ready to fit a model!
+The most basic type of exploratory data analysis is to graph the data. Humans are visual learners and to truly understand a dataset it helps us to be able to see the data. Below you will see an example of code to graph the data.
+```
+ggplot(data=mydata, mapping=aes(x=X,y=Y)) + geom_point()+geom_smooth(se=FALSE)
+```
+An example of a scatterplot that I have created is shown below. This dataset represents the relationship between the wind speed at two different locations in order to find the best places to build windmills.
+
+After graphing the data, it is also helpful to find simple statistics such as covariance and correlation to help us to better understand the relationships between variables. This can be done by following the code below.
+```
+cov(mydata$X,mydata$Y) #covariance
+cor(mydata$X,mydata$Y) #correlation
+```
+Once we have explored the data, we are ready to fit a model!
 
 # Fitting a Model
 A regression model is a model that can help us to understand the relationships between variables and to predict how other data would react. Models for regression can be derived using calculus and least squares estimates. To learn more about regression models go <a href="[http://www.knowledgehut.com/blog/data-science/regression-analysis-and-its-techniques-in-data-science"> here </a>
 <!-- or -->
 <a href="https://www.knowledgehut.com/blog/data-science/regression-analysis-and-its-techniques-in-data-science"> here </a>. Although the math behind regression models is very interesting, this blog will focus more on how to use R code to fit the dataset to a model. I think that it is interesting to understand the mechanics behind models but for the most part, I let my computer do most of the actual computing for me. We can fit a simple linear regression model with a simple line of code:
+```
+slr <- lm(formula=Y~X, data=mydata)
+
+```
 
 # Time to Make Predictions
-Once we have fit a model (and made sure that our data meets the assumptions) we can use it to make predictions about the data. In my opinion this is the funnest part. It is important to note here that it is unethical to try to use data outside of the range of the original dataset to make predictions. This is known as data extrapolation. If we use a data point that would fit within the range of the original dataset we can once again use R to predict the response variable associated with our explanatory variable as if it was in the original dataset. The line of code used to do this is:
+Once we have fit a model (and made sure that our data meets the assumptions) we can use it to make predictions about the data. In my opinion this is the funnest part. It is important to note here that it is unethical to try to use data outside of the range of the original dataset to make predictions. This is known as data extrapolation. If we use a data point that would fit within the range of the original dataset we can once again use R to predict the response variable associated with our explanatory variable as if it was in the original dataset. In order to use the predict.lm function in R, we need to create a dataframe with the data points that we are interested. Then we can predict the values of our points using our model.
+'''
+mydata <- data.frame(X=c(x1,x2))
+predict.lm(slr, mydata)
+'''
+
+# Conclusion
+Ultimately, Regression is an incredible tool that we use in data science. This tutorial barely scrapes the surface in how complex regression can get. Nevertheless, at the root of it all regression can be very simple and we "R" greatful for the tools that can help us to do it!
