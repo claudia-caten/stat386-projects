@@ -4,13 +4,15 @@ title:  "Becoming a Regression ExpeRt"
 date:   2022-08-02
 author: Claudia Caten
 description: Regression is an essential tool as a statistican. In this blog post I will go over how to use R to perform different types of Regression data analysis.
-image: 
+image: /assets/images/image1.jpg
 ---
 Learning how to perform regression is an indispensable tool as a statistician. Regression is useful to understand the relationship between variables and to be able to make predictions. In my experience as a learning statistician, I have learned a lot about regression, and I recognize that there is a lot more to be learned. I have been able to use Regression to answer all types of questions. I have been able to predict where a prospective farmer should purchase land, the amount of air pollution based off the amount of traffic in an intersection and even whether a tumor will be malignant. As you can see Regression is an incredibly important tool. This blog will cover some of the basics of regression specifically in R, but I encourage you to learn even more! Check out this awesome
 <a href="https://www.towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9"> blog </a> if you want to learn more about Regression in python.
 
 # Different Types of Regression
-It's first important to recognize that there are many different types of Regression, just like there are many types of datasets. Regression can be performed on the simplest and the most complex datasests. This blog will be centered on the most basic type of regression, simple linear regression. Beyond this you can perform regression on datasets with multiple explanatory variables, datasets with both categorical and quantitative variables and even variables that don't appear to have a linear relationship. Essentially each of these more complex types of regression are just variations of simple linear regression. We will go through the basic steps of this below.
+It's first important to recognize that there are many different types of Regression, just like there are many types of datasets. Regression can be performed on the simplest and the most complex datasests. This blog will be centered on the most basic type of regression, simple linear regression. Beyond this you can perform regression on datasets with multiple explanatory variables, datasets with both categorical and quantitative variables and even variables that don't appear to have a linear relationship. Essentially each of these more complex types of regression are just variations of simple linear regression. I found a graphic on javapoint.com that illustrates the different types of regression. This blog will go through the basic steps of simple linear regression below.
+![Test Image](https://raw.githubusercontent.com/claudia-caten/stat386-projects/main/assets/images/types-of-regression.png)
+
 
 # Exploring the Data
 Before Americans expanded west, they sent explorers to learn more about the land in the west. Similarly, before we start to perform regression, we need to learn all that we can about the data. Performing an exploratory data analysis (also known as an EDA) is an essential step. Doing this helps us to know what kind of regression we will perform and helps us to become acquainted with the dataset that we are working with. 
@@ -19,6 +21,8 @@ The most basic type of exploratory data analysis is to graph the data. Humans ar
 ggplot(data=mydata, mapping=aes(x=X,y=Y)) + geom_point()+geom_smooth(se=FALSE)
 ```
 An example of a scatterplot that I have created is shown below. This dataset represents the relationship between the wind speed at two different locations in order to find the best places to build windmills.
+![Test Image](https://raw.githubusercontent.com/claudia-caten/stat386-projects/main/assets/images/EDA_example.png)
+
 
 After graphing the data, it is also helpful to find simple statistics such as covariance and correlation to help us to better understand the relationships between variables. This can be done by following the code below.
 ```
