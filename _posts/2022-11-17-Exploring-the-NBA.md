@@ -35,4 +35,4 @@ Finally I wanted to do some exploratory data analysis on the Utah Jazz. Since th
 
 
 # Looking Forward
-Exploring the data is just the beginning. Now that we have found out more about our data we can use it to tell a story. In addition, we can use our data to make an interence or predictions about our data. I am still learning more about data analyzation and have ways to grow. I think if I am going to keep using this data I want to gain more data about players such as height and weight to predict what physical attributes make a great NBA player.
+Exploring the data is just the beginning. Now that we have found out more about our data we can use it to tell a story. In addition, we can use our data to make an interence or predictions about our data. I am still learning more about data analyzation and have ways to grow. I think if I am going to keep using this data I want to gain more data about players such as height and weight to predict what physical attributes make a great NBA player. If you want to see the code that I used for this project you can find it <a href="https://github.com/claudia-caten/web-scraping"> HERE </a>.
