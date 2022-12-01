@@ -4,7 +4,7 @@ title:  "Data Science For Beginners"
 date:   2022-09-13 
 author: Claudia Caten
 description: Learn About Data Science From a Beginner
-image: /assets/images/image5.jpg
+image: /assets/images/download-2.jpg
 ---
 
 
