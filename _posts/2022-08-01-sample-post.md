@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Science For Beginners"
-date:   2022-08-13 
+date:   2022-09-13 
 author: Claudia Caten
 description: Learn About Data Science From a Beginner
 image: /assets/images/image5.jpg
@@ -27,6 +27,6 @@ Here is a link to a blog post that inspired me to get more into blogging! This b
 A better question would be why not Data Science? I have always loved numbers, even from a young age. It took a few steps to get here but I have recently found myself in the Data Science emphasis because I have found a passion for coding. I am excited for all of the things that I will learn and all the opportunity that will come with a greater knowledge in Data Science. I think in this whole process I am going to learn that **confidence is key**. I know that I will be able to accomplish much more if I believe in myself and as I try to get over the feelings of imposter syndrome.
 
 
-**Images in the post will look like:**<br>
+
 ![Test Image](https://raw.githubusercontent.com/claudia-caten/stat386-projects/main/assets/images/Data_Science_Image1.jpeg)
 
