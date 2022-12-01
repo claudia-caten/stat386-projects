@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  This blog is all things statistics. Join me on my journey to learn more about datascience!
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
 url: "https://claudia-caten.github.io" #  change this to "https://<your-github-username>.github.io"
-image: "assets/images/image5.jpg"
+image: "assets/images/datascience.jpg"
 author: Claudia Caten
 copyright: CDC # Your initials or what you want the copyright to be.  Leave empty for no copyright
 
