@@ -4,7 +4,7 @@ title:  "The NBA Story"
 date:   2022-12-08
 author: Claudia Caten
 description: A final explaination on what we learned from the NBA dataset
-image: /assets/images/NBA.png
+image: /assets/images/NBA2.png
 ---
 
 # Where Have We Been?
